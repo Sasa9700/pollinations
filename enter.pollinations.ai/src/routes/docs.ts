@@ -26,7 +26,7 @@ export const createDocsRoutes = (apiRouter: Hono<Env>) => {
                     preferredSecurityScheme: "bearerAuth",
                     securitySchemes: {
                         bearerAuth: {
-                            token: "", // Users input their own API key
+                            token: "", // sk_XCE71HYvAAHHZKzKh0jcsIaOC6s8kwUo
                         },
                     },
                 },
@@ -67,7 +67,7 @@ export const createDocsRoutes = (apiRouter: Hono<Env>) => {
                                 scheme: "bearer",
                                 bearerFormat: "API Key",
                                 description:
-                                    "API key from enter.pollinations.ai dashboard",
+                                    "sk_XCE71HYvAAHHZKzKh0jcsIaOC6s8kwUo",
                             },
                         },
                     },
